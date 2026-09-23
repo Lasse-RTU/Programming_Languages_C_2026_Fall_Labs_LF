@@ -9,7 +9,6 @@ int main(int argc, char *argv[]) {
 
   printf("Please enter your first name: ");
   scanf("%49s", name);
-  printf("%d", i);
   printf("\nHello %s! Nice to meet you!\n", name);
 
   printf("You passed %d argument(s).\n", argc - 1);
