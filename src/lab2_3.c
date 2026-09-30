@@ -26,7 +26,9 @@ int main(void) {
     int n;
 
     printf("Enter an integer n (>= 2): ");
+
     int validator = scanf("%d", &n);
+    
     if (validator != 1) {
         printf("Please enter a valid integer!\n");
     } else if (n < 2) {
@@ -44,7 +46,6 @@ int main(void) {
         }
     }
 
-    // TODO: validate input and print all primes up to n
 
     return 0;
 }
